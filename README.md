@@ -14,7 +14,7 @@ Berikut ini daftar tutorial yang dapat dipelajari.
 
 The MIT License (MIT)
 
-Copyright (c) 2013 Agus Kurniawan
+Copyright (c) 2014 Agus Kurniawan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
