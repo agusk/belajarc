@@ -9,7 +9,7 @@ Ada banyak tool yang dapat digunakan untuk membuat program bahasa C. Berikut ini
 * Intellij IDE, [http://www.jetbrains.com/idea/](http://www.jetbrains.com/idea/)
 * Dev C++, [http://www.bloodshed.net/devcpp.html](http://www.bloodshed.net/devcpp.html)
 
-## GCC Compiler
+### GCC Compiler
 
 Untuk platform Linux Debian/Ubuntu, anda dapat menginstall dengan menulis perintah ini di terminal
 
