@@ -8,6 +8,7 @@ Ada banyak tool yang dapat digunakan untuk membuat program bahasa C atau C++. Be
 * Borland C++, [http://edn.embarcadero.com/article/20633](http://edn.embarcadero.com/article/20633)
 * Intellij IDE, [http://www.jetbrains.com/idea/](http://www.jetbrains.com/idea/)
 * Dev C++, [http://www.bloodshed.net/devcpp.html](http://www.bloodshed.net/devcpp.html)
+* Qt Editor, [http://qt-project.org/](http://qt-project.org/)
 
 ## GCC Compiler
 
