@@ -7,6 +7,7 @@ Tutorial mengenai bagaimana menguasai bahasa dengan mahir.
 
 Berikut ini daftar tutorial yang dapat dipelajari.
 * [Development Tools dan Compilers](/content/idecompilers.md)
+* [Hello World](/content/idecompilers.md)
 
 
 
