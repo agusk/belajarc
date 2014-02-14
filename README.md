@@ -1,4 +1,4 @@
-## Belajar Pemrograman Bahasa C
+# Belajar Pemrograman Bahasa C
 
 Tutorial mengenai bagaimana menguasai bahasa C dengan mahir.
 
