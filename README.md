@@ -1,6 +1,6 @@
 ## Belajar Pemrograman Bahasa C
 
-Tutorial mengenai bagaimana menguasai bahasa dengan mahir.
+Tutorial mengenai bagaimana menguasai bahasa C dengan mahir.
 
 
 ## Daftar Tutorial
@@ -9,6 +9,13 @@ Berikut ini daftar tutorial yang dapat dipelajari.
 * [Development Tools dan Compilers](/content/idecompilers.md)
 * [Hello World](/content/helloworld.md)
 
+
+Semua tutorial ini menggunakan compiler GCC pada platform Linux.
+Jika ada masalah, kirim pesan kebagian [issue](https://github.com/agusk/belajarc/issues).
+
+
+Kontributor:
+* [Agus Kurniawan](http://blog.aguskurniawan.net/)
 
 
 
