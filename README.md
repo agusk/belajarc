@@ -1,6 +1,6 @@
 # Belajar Pemrograman Bahasa C
 
-Tutorial mengenai bagaimana menguasai bahasa C dengan mahir.
+Tutorial mengenai bagaimana menguasai bahasa C dengan mandiri.
 
 
 ## Daftar Tutorial
