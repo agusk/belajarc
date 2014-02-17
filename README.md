@@ -8,6 +8,7 @@ Tutorial mengenai bagaimana menguasai bahasa C dengan mandiri.
 Berikut ini daftar tutorial yang dapat dipelajari.
 * [Development Tools dan Compilers](/content/idecompilers.md)
 * [Hello World](/content/helloworld.md)
+* [Tipe Data dan Deklarasi Variabel](/content/datatypevar.md)
 
 
 Semua tutorial ini menggunakan compiler GCC pada platform Linux.
