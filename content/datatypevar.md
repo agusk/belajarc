@@ -1,4 +1,4 @@
-# Tipe Data dan Variabel
+# Tipe Data dan Deklarasi Variabel
 
 Pada bahasa C kita dapat menggunakan beberapa tipe data. Berikut ini tipe data yang sering digunakan:
 
