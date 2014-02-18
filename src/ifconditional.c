@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main(int argc, const char* argv[]) {
-  int temperatur = 70;
+  int temperatur = 80;
 
-  if(temperatur>50) {
-    printf("Temperatur diatas 50^C \r\n");
+  if(temperatur > 70) {
+    printf("Temperatur diatas 70^C \r\n");
   }else {
-    printf("Temperatur dibawah atau sama dengan 50^C \r\n");
+    printf("Temperatur dibawah atau sama dengan 70^C \r\n");
   }
 
   return 0;
