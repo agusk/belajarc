@@ -1,5 +1,6 @@
 # Kondisional if
 
+## Sintak Dasar
 Suatu saat kita ingin melakukan validasi dimana hasilkan akan menentukan aksi yang akan dilakukan. Misalkan jika temperatur diatas 70^C maka akan diturunkan suhunya. Dalam pemrograman C, kita dapat melakukan dengan menggunakan sintak if. Berikut ini sintak umumnya:
 
     if(kondisi) {
@@ -8,7 +9,7 @@ Suatu saat kita ingin melakukan validasi dimana hasilkan akan menentukan aksi ya
     }
 
 
-Contoh realisasinya sebagai berikut.
+Contoh realisasinya sebagai berikut, [ifconditional.c](../src/ifconditional.c).
 
     #include <stdio.h>
 
@@ -23,3 +24,8 @@ Contoh realisasinya sebagai berikut.
 
       return 0;
     }
+
+Anda perhatikan diatas disana ada sintak else. Sintak digunakan ketika kondisi if tidak terpenuhi maka akan dieksekusi kode program didalam else.
+
+
+## nested-if
