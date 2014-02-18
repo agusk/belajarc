@@ -9,6 +9,7 @@ Berikut ini daftar tutorial yang dapat dipelajari.
 * [Development Tools dan Compilers](/content/idecompilers.md)
 * [Hello World](/content/helloworld.md)
 * [Tipe Data dan Deklarasi Variabel](/content/datatypevar.md)
+* [Kondisional if](/content/ifconditional.md)
 
 
 Semua tutorial ini menggunakan compiler GCC pada platform Linux.
