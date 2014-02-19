@@ -14,3 +14,15 @@ Jika ingin setelah menampilkan tulisan tersebut, kursor diarahkan ke kiri bawah 
     
 ## Menyisipkan karakter atau Bilangan
 
+Misalkan kita ingin menampilkan nilai temperatur yang diperolah dari pengukuran dan menampikan ke layar.
+
+    int temperatur = 10; // bisa dari hasil pengukuran
+    printf("Temperatur: %d \r\n", temperatur);
+    
+Anda perhatikan nilai %d menunjukkan suatu bilangan yang akan disisipkan. Berikut ini yang perlu dihafalkan.
+* %d dan %i digunakan untuk bilangan int
+* %x untuk menampilkan bilangan hex
+* %o untuk menampilkan bilangan octal
+* %s untuk string
+* %f untuk decimal floating point
+
