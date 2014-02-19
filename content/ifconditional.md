@@ -29,3 +29,18 @@ Anda perhatikan diatas disana ada sintak else. Sintak digunakan ketika kondisi i
 
 
 ## nested-if
+
+Kita juga dapat membuat nested-if dimana setelah else dilakukan pengecekan kondisi. Perhatikan contoh dibawah ini.
+
+    if(num<=100 && num>80) {
+        printf("Nilai A");
+    }else 
+        if(num<=80 && num>70) {
+            printf("Nilai B");
+        }else
+            if(num<=70 && num>55) {
+                printf("Nilai C");
+            }else {
+                printf("Nilai D");
+            }
+            
