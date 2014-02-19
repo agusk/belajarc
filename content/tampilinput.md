@@ -1,4 +1,4 @@
-# Menampilkan Text ke Layar dan Menerima Input
+# Menampilkan Text ke Layar
 
 ## Menampilkan Text ke Layar
 
@@ -10,3 +10,7 @@ Seperti yang pernah dibuat pada Hello World dimana kita menampikan ke layar. Dis
 Jika ingin setelah menampilkan tulisan tersebut, kursor diarahkan ke kiri bawah maka kita dapat menambahkan "\r\n", contoh penggunaannya:
 
     printf("Selamat datang di C \r\n");
+    
+    
+## Menyisipkan karakter atau Bilangan
+
