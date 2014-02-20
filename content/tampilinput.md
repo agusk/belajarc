@@ -19,7 +19,7 @@ Misalkan kita ingin menampilkan nilai temperatur yang diperolah dari pengukuran 
     int temperatur = 10; // bisa dari hasil pengukuran
     printf("Temperatur: %d \r\n", temperatur);
     
-Anda perhatikan nilai %d menunjukkan suatu bilangan yang akan disisipkan. Berikut ini yang perlu dihafalkan.
+Anda perhatikan nilai %d menunjukkan suatu bilangan yang akan disisipkan. Berikut ini yang perlu diketahui.
 * %d dan %i digunakan untuk bilangan int
 * %x untuk menampilkan bilangan hex
 * %o untuk menampilkan bilangan octal
