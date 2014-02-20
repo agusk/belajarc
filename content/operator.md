@@ -24,6 +24,57 @@ Operator Aritmatika digunakan untuk melakukan hal-hal yang berhubungan dengan op
 * -- untuk melakukan pengurangan dengan angka 1
 
 
+Berikut ini contoh implementasinya ([operator.c](../src/operator.c)):
+
+    #include <stdio.h>
+
+    int main()
+    {
+        int a = 25, b = 3;
+
+        int c = a + b;
+        printf("a+b = %d \n", c);
+
+        c = a - b;
+        printf("a-b = %d \n", c);
+
+        c = a * b;
+        printf("a*b = %d \n", c);
+
+        float d = (float)a / b;
+        printf("a/b = %.3f \n", d);
+
+        c = a % b;
+        printf("a%%b = %d \n", c);
+
+        a++;
+        printf("a++ = %d \n", a);
+
+        ++a;
+        printf("++a = %d \n", a);
+
+        b--;
+        printf("b-- = %d \n", b);
+
+        --b;
+        printf("--b = %d \n", b);
+
+
+    	return 0;
+    }
+
+
+Untuk kompilasi dan eksekusinya:
+
+    $ gcc -o operator operator.c
+    $ ./operator
+
+Jika sukses kita akan mendapatkan tampilan seperti dibawah ini.
+
+![Contoh hasil eskekusi program operator Aritmatika](images/operator.png "Contoh hasil eksekusi")
+
+
+
 
 ## Operator Relational
 
