@@ -10,8 +10,14 @@ Berikut ini daftar tutorial yang dapat dipelajari.
 * [Hello World](/content/helloworld.md)
 * [Tipe Data dan Deklarasi Variabel](/content/datatypevar.md)
 * [Menampilkan Text ke Layar](/content/tampilinput.md)
+* [Menerima Input Keyboard](/content/menerimainput.md)
 * [Operator](/content/operator.md)
 * [Kondisional if](/content/ifconditional.md)
+* [Seleksi dengan switch](/content/seleksiswitch.md)
+* [Pengulangan](/content/pengulangan.md)
+* [Fungsi](/content/fungsi.md)
+* [Bekerja dengan Koleksi](/content/koleksi.md)
+* [Pointer](/content/pointer.md)
 
 
 Semua tutorial ini menggunakan compiler GCC pada platform Linux.
