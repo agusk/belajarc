@@ -15,6 +15,7 @@ Berikut ini daftar tutorial yang dapat dipelajari.
 * [Kondisional if](/content/ifconditional.md)
 * [Seleksi dengan switch](/content/seleksiswitch.md)
 * [Pengulangan](/content/pengulangan.md)
+* [Operasi Matematika](/content/mathoperation.md)
 * [Fungsi](/content/fungsi.md)
 * [Bekerja dengan Koleksi](/content/koleksi.md)
 * [Pointer](/content/pointer.md)
