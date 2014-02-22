@@ -1,6 +1,6 @@
 # Seleksi dengan switch
 
-Kita dapat melakukan seleksi suatu nilai dengan memanfaatkan sintak switch. Misalkan kita menyeleksi suatu nilai dan menampikkan responnya ke layar.
+Kita dapat melakukan seleksi suatu nilai dengan memanfaatkan sintak switch. Misalkan kita menyeleksi suatu nilai dan menampilkan responnya ke layar.
 
 Berikut ini contoh realiasiasinya ([switchdemo.c](../src/switchdemo.c)).
 
