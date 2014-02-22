@@ -1,5 +1,7 @@
 # Seleksi dengan switch
 
+## Penggunaan switch
+
 Kita dapat melakukan seleksi suatu nilai dengan memanfaatkan sintak switch. Misalkan kita menyeleksi suatu nilai dan menampilkan responnya ke layar. Sintak dasarnya sebagai berikut.
 
 	switch(ekspresi)
@@ -65,3 +67,6 @@ Contoh hasil eksekusi.
 	Cukup
 
 Ganti nilai dari variabel nilai dan lakukan kompilasi. Kemudian eksekusi.
+
+## Nested switch
+
