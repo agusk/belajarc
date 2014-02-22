@@ -1,8 +1,22 @@
 # Seleksi dengan switch
 
-Kita dapat melakukan seleksi suatu nilai dengan memanfaatkan sintak switch. Misalkan kita menyeleksi suatu nilai dan menampilkan responnya ke layar.
+Kita dapat melakukan seleksi suatu nilai dengan memanfaatkan sintak switch. Misalkan kita menyeleksi suatu nilai dan menampilkan responnya ke layar. Sintak dasarnya sebagai berikut.
 
-Berikut ini contoh realiasiasinya ([switchdemo.c](../src/switchdemo.c)).
+	switch(ekspresi)
+	{
+		case nilai-ekspresi:
+				// lakukan sesuatu
+				break;
+		case nilai-ekspresi:
+				// lakukan sesuatu
+				break;
+		defaut:
+				// lakukan sesuatu
+
+	}
+
+
+Bagaimana cara menggunakannya? Berikut ini contoh realiasiasinya ([switchdemo.c](../src/switchdemo.c)).
 
 	#include <stdio.h>
  
