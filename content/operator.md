@@ -78,6 +78,57 @@ Jika sukses kita akan mendapatkan tampilan seperti dibawah ini.
 
 ## Operator Relational
 
+Berikut ini beberapa operational relational yang dapat digunakan:
+
+* == sama dengan
+* != tidak sama dengan
+* > lebih besar dari
+* < kurang dari
+* >= lebih besar atau sama dengan 
+* <= kurang dari atau sama dengan
+
+Untuk memudahkan pemahaman penggunaan ini, kita dapat merealisasikan dalam kode program. Contoh program ([relational.c](../src/relational.c)):
+
+
+	#include <stdio.h>
+ 
+	int main ()
+	{
+	   // ganti nilai ini sesuai dengan keinginan	
+	   int a = 10;
+	   int b = 15;
+	   
+	   printf("%d==%d %s \n", a,b,a==b ? "true":"false");
+	   printf("%d!=%d %s \n", a,b,a!=b ? "true":"false");
+	   printf("%d>=%d %s \n", a,b,a>=b ? "true":"false");
+	   printf("%d<=%d %s \n", a,b,a<=b ? "true":"false");
+	   printf("%d>%d %s \n", a,b,a>=b ? "true":"false");
+	   printf("%d<%d %s \n", a,b,a<b ? "true":"false");
+	      
+	   return 0;
+	}
+
+
+Lakukan kompilasi.
+
+	$ gcc -o relational relational.c
+
+
+Kemudian eksekusi.
+
+	$ ./relational
+
+Contoh hasil ouput.
+
+	$ ./relational
+	10==15 false
+	10!=15 true
+	10>=15 false
+	10<=15 true
+	10>15 false
+	10<15 true
+
+	
 
 
 ## Operator Logika
