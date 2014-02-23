@@ -90,3 +90,5 @@ Jika sukses kita akan mendapatkan tampilan seperti dibawah ini.
 
 ## Operator Assignment
 
+
+[![Kembali ke menu utama](images/back.png "Kembali menu utama")](/README.md)

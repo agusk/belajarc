@@ -36,3 +36,5 @@ Bagaimana dengan ini?
     int b = a;
     
 Disini nilai b akan sama dengan nilai a yaitu 10.
+
+[![Kembali ke menu utama](images/back.png "Kembali menu utama")](/README.md)

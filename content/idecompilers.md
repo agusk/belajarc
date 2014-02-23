@@ -16,3 +16,5 @@ Untuk platform Linux Debian/Ubuntu, anda dapat menginstall dengan menulis perint
 
     $ sudo apt-get update
     $ sudo apt-get install build-essential
+
+[![Kembali ke menu utama](images/back.png "Kembali menu utama")](/README.md)

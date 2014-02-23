@@ -55,3 +55,5 @@ Kalau kita lakukan kompilasi dan eksekusi.
 Contoh hasil eksekusinya dapat dilihat dibawah ini.
 
 ![Float demo](images/floatdemo.png "Contoh hasil eksekusi")
+
+[![Kembali ke menu utama](images/back.png "Kembali menu utama")](/README.md)

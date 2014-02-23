@@ -35,3 +35,5 @@ Contoh hasil eksekusinya:
 	Nama: agus
 	Umur: 30
 	agus , Umur anda adalah 30 tahun.
+
+[![Kembali ke menu utama](images/back.png "Kembali menu utama")](/README.md)
