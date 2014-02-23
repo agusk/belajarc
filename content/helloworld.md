@@ -1,6 +1,6 @@
 # Hello World
 
-Ini merupakan hal yang pertama yang dilakukan ketikan membuat program awal yaitu Hello World. Disini kita menggunakan Ubuntu dan compiler GCC. Buat file dengan nama hello.c dan tulis kode program dibawah ini.
+Ini merupakan hal yang pertama yang dilakukan ketikan membuat program awal yaitu Hello World. Disini kita menggunakan Ubuntu dan compiler GCC. Buat file dengan nama **hello.c** dan tulis kode program dibawah ini.
 
     #include <stdio.h>
 
@@ -26,3 +26,7 @@ Untuk eksekusinya dapat dilakukan sebagai berikut.
 Contoh hasilnya.
 
 ![alt text](images/hello.png "Contoh hasil eksekusi")
+
+
+[![alt text](images/back.png "Kembali menu utama")](/README.md)
+
