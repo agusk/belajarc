@@ -28,5 +28,5 @@ Contoh hasilnya.
 ![alt text](images/hello.png "Contoh hasil eksekusi")
 
 
-[![alt text](images/back.png "Kembali menu utama")](/README.md)
+[![Kembali ke menu utama](images/back.png "Kembali menu utama")](/README.md)
 
