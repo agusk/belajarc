@@ -133,6 +133,46 @@ Contoh hasil ouput.
 
 ## Operator Logika
 
+Ada tiga operator logika yang dapat digunakan yaitu:
+
+* && merupakan logika AND
+* || merupakan logika OR
+* ! merupakan logika NOT
+
+Contoh penggunaan operator logika dapat dilihat kode program dibawah ini ([logika.c](../src/logika.c)).
+
+    #include <stdio.h>
+ 
+    int main ()
+    {
+       // ganti nilai ini sesuai dengan keinginan	
+       int a = 10;
+       int b = 15;
+       
+       printf("(%d>%d) && (%d==%d) %s \n", a,b,a,b,(a>b) && (a==b) ? "true":"false");
+       printf("(%d>%d) || (%d==%d) %s \n", a,b,a,b,(a>b) || (a==b) ? "true":"false");
+       printf("!(%d>%d) && (%d==%d) %s \n", a,b,a,b,!(a>b) && (a==b) ? "true":"false");
+       printf("(%d>%d) && !(%d==%d) %s \n", a,b,a,b,!(a>b) && (a==b) ? "true":"false");
+       printf("!(%d>%d) || (%d==%d) %s \n", a,b,a,b,!(a>b) || (a==b) ? "true":"false");
+          
+       return 0;
+    }
+
+Untuk kompilasi dan eksekusinya dapat dilakukan seperti ini.
+
+    $ gcc -o logika logika.c
+    $ ./logika
+    
+Contoh outputnya:
+
+    $ ./logika 
+    (10>15) && (10==15) false 
+    (10>15) || (10==15) false 
+    !(10>15) && (10==15) false 
+    (10>15) && !(10==15) false 
+    !(10>15) || (10==15) true 
+
+    
 
 
 ## Operator Bitwise
