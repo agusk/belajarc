@@ -177,6 +177,8 @@ Contoh outputnya:
 
 ## Operator Bitwise
 
+Operator bitwise digunakan untuk operasi biner.
+
 
 
 ## Operator Assignment

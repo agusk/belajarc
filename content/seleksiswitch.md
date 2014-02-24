@@ -116,4 +116,7 @@ Kita dapat menggunakan nested switch dimana didalam switch didalamnya ada switch
 	}
 
 
+Pada case 'C' maka didalamnya terdapat switch lagi untuk menyeleksi level.
+
+
 [![Kembali ke menu utama](images/back.png "Kembali menu utama")](/README.md)
