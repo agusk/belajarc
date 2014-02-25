@@ -177,7 +177,22 @@ Contoh outputnya:
 
 ## Operator Bitwise
 
-Operator bitwise digunakan untuk operasi biner.
+Operator bitwise digunakan untuk operasi biner. Berikut ini operasi bitwise:
+
+* & merupakan operasi bitwise untuk AND
+* | merupakan operasi bitwise untuk OR
+* ^ merupakan operasi bitwise untuk XOR
+* ~ merupakan operasi bitwise untuk binary ones Complement
+* << merupakan operasi bitwise untuk binary left shift
+* >> merupakan operasi bitwise untuk binary right shift
+
+
+Sebagai ilustrasi, misalkan A = 10 maka binernya adalah 1010 dan B = 21 maka binernya adalah 10101. Disini kalau dilakukan operasi bitwise AND maka ini akan menjadi:
+
+	A=10	 1010
+	B=21	10101
+	------------------ AND
+			00000
 
 
 
