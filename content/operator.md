@@ -237,8 +237,4 @@ Contoh hasil seksekusinya dapat dilihat dibawah ini
 
 
 
-
-## Operator Assignment
-
-
 [![Kembali ke menu utama](images/back.png "Kembali menu utama")](/README.md)
