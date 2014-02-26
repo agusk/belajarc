@@ -6,7 +6,6 @@ Pada sesi ini kita akan belajar mengenai operator yang sering digunakan dalam ba
 * Opeator Relational
 * Operator Logika
 * Operator Bitwise
-* Operator Assignment
 
 Masing-masing operator ini akan dibahas.
 
