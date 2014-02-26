@@ -195,6 +195,48 @@ Sebagai ilustrasi, misalkan A = 10 maka binernya adalah 1010 dan B = 21 maka bin
 			00000
 
 
+Untuk contoh dalam kode program, kita dapat menggunakan kode program dibawah ini ([bitwise.c](../src/bitwise.c)).
+
+    #include <stdio.h>
+     
+    int main ()
+    {
+       // ganti nilai ini sesuai dengan keinginan	
+       int a = 7;
+       int b = 12;
+       
+       printf("%d & %d = %d \n", a,b, a & b);
+       printf("%d | %d = %d \n", a,b, a | b);
+       printf("%d ^ %d = %d \n", a,b, a ^ b);
+       printf("~%d = %d \n", a,~a);
+       printf("%d<<3 = %d \n", a,a<<3);
+       printf("%d>>3 = %d \n", a,a>>3);
+    
+       return 0;
+    }
+
+
+Kompilasi dan jalankan program ini.
+
+
+    $ gcc -o bitwise bitwise.c
+    $ ./bitwise
+    
+
+Contoh hasil seksekusinya dapat dilihat dibawah ini
+
+    $ ./bitwise 
+    7 & 12 = 4 
+    7 | 12 = 15 
+    7 ^ 12 = 11 
+    ~7 = -8 
+    7<<3 = 56 
+    7>>3 = 0 
+
+    
+
+
+
 
 ## Operator Assignment
 
