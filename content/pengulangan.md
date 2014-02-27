@@ -20,7 +20,7 @@ Sintak dasar dari while dapat dideklarasikan sebagai berikut.
 
     }
 
-Sebagai ilustrasinya, kita akan melakukan looping sebanyak 10 kali. Berikut ini contoh programnya [while.c](../src/while.c).
+Sebagai ilustrasinya, kita akan melakukan looping sebanyak 10 kali. Berikut ini contoh programnya ([while.c](../src/while.c)).
 
     #include <stdio.h>
      
@@ -53,6 +53,44 @@ Contoh hasil eksekusinya
 
 
 ## do..while
+
+Kalau pada sintak while, kita melakukan pengecekan ekspresi dan jika terpenuhi maka proses akan dilanjutkan pada kode program selanjutnya. Sedangkan pada do..while, proses pengecekan ekspresi dilakukan diakhir. Berikut ini sintak dasar do..while.
+
+
+    do
+    {
+        // lakukan sesuatu
+    
+    }while(ekspresi);
+
+
+
+Contoh ilustrasi kita ambil dari kode program while tetapi disini kita menggunakan do..while ([dowhile.c](../src/dowhile.c)).
+
+
+    #include <stdio.h>
+     
+    int main ()
+    {
+    
+       int a = 0;
+    
+       do
+       {
+           printf("looping %d \n",a);
+           a++;
+       }while(a<10);
+          
+       return 0;
+    }
+
+
+Lakukan kompilasi dan jalankan.
+
+
+    $ gcc -o dowhile dowhile.c
+    $ ./dowhile
+    
 
 
 
