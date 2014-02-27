@@ -20,7 +20,35 @@ Sintak dasar dari while dapat dideklarasikan sebagai berikut.
 
     }
 
+Sebagai ilustrasinya, kita akan melakukan looping sebanyak 10 kali. Berikut ini contoh programnya [while.c](../src/while.c).
 
+    #include <stdio.h>
+     
+    int main ()
+    {
+    
+       int a = 0;
+    
+       while(a<10)
+       {
+           printf("looping %d \n",a);
+           a++;
+       }
+          
+       return 0;
+    }
+    
+
+Simpan kode program ini dan lakukan kompilasi serta menjalankannya.
+
+
+    $ gcc -o while while.c
+    $ ./while
+    
+
+Contoh hasil eksekusinya
+
+![alt text](images/while.png "Contoh hasil eksekusi")
 
 
 
@@ -37,3 +65,4 @@ Sintak dasar dari while dapat dideklarasikan sebagai berikut.
 ## Nested Looping
 
 
+[![Kembali ke menu utama](images/back.png "Kembali menu utama")](/README.md)
