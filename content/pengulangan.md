@@ -97,10 +97,64 @@ Lakukan kompilasi dan jalankan.
 
 ## for
 
+Selain menggunakan while dan do..while, kita juga dapat melakukan pengulangan dengan menggunakan for. Secara umum sintak for sebagai berikut:
+
+
+    for(initialisasi;kondisi;peningkatan/penurunan nilai)
+    {
+        // lakukan sesuatu
+    }
+
+
+Sebagai contoh skenario, kita melakukan looping sebanyak 15 ([for.c](../src/for.c)).
+
+
+    #include <stdio.h>
+     
+    int main ()
+    {
+        int i;
+    
+        for(i=0;i<15;i++)
+        {
+            printf("looping %d \n",i);
+        }
+    
+          
+       return 0;
+    }
+
+
+Lakukan kompilasi dan jalankan.
+
+
+    $ gcc -o for for.c
+    $ ./for
+    
+
+Berikut ini contoh hasil eksekusinya.
+
+![alt text](images/for.png "Contoh hasil eksekusi")
+
 
 
 
 ## Nested Looping
+
+Pada beberapa kasus kita juga dapat melakukan nested looping, contohnya sebagai berikut.
+
+
+    int i,j;
+    
+    for(i=0;i<8;i++)
+        for(j=0;j<5,j++)
+        {
+            printf("looping %d %d \n", i, j);
+    
+        }
+
+
+
 
 
 [![Kembali ke menu utama](images/back.png "Kembali menu utama")](/README.md)
