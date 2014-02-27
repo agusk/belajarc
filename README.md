@@ -16,6 +16,7 @@ Berikut ini daftar tutorial yang dapat dipelajari.
 * [Kondisional if](/content/ifconditional.md)
 * [Seleksi dengan switch](/content/seleksiswitch.md)
 * [Pengulangan](/content/pengulangan.md)
+* [break dan continue](/content/breakcontinue.md)
 * [Operasi Matematika](/content/mathoperation.md)
 * [Fungsi](/content/fungsi.md)
 * [Bekerja dengan Koleksi](/content/koleksi.md)
@@ -28,7 +29,7 @@ Jika ada masalah, kirim pesan kebagian [issue](https://github.com/agusk/belajarc
 
 Kontributor:
 
-* [Agus Kurniawan](http://blog.aguskurniawan.net/)
+* [Agus Kurniawan](http://blog.aguskurniawan.net/) , Fakultas Ilmu Komputer - Universitas Indonesia
 
 
 
