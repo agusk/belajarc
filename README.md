@@ -17,8 +17,8 @@ Berikut ini daftar tutorial yang dapat dipelajari.
 * [Seleksi dengan switch](/content/seleksiswitch.md)
 * [Pengulangan](/content/pengulangan.md)
 * [break dan continue](/content/breakcontinue.md)
-* [Operasi Matematika](/content/mathoperation.md)
 * [Fungsi](/content/fungsi.md)
+* [Operasi Matematika](/content/mathoperation.md)
 * [Bekerja dengan Koleksi](/content/koleksi.md)
 * [Pointer](/content/pointer.md)
 
