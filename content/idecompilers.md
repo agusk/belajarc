@@ -10,11 +10,33 @@ Ada banyak tool yang dapat digunakan untuk membuat program bahasa C atau C++. Be
 * Dev C++, [http://www.bloodshed.net/devcpp.html](http://www.bloodshed.net/devcpp.html)
 * Qt Editor, [http://qt-project.org/](http://qt-project.org/)
 
+Pada tutorial ini penulis akan menggunakan compiler **GCC**.
+
 ## GCC Compiler
 
 Untuk platform Linux Debian/Ubuntu, anda dapat menginstall dengan menulis perintah ini di terminal
 
     $ sudo apt-get update
     $ sudo apt-get install build-essential
+
+Selanjutnya anda dapat menggunakan GCC ini pada Linux Debian/Ubuntu.
+
+## GCC Pada Windows
+
+Bagi anda yang memiliki platform Windows dan ingin menggunakan compiler GCC maka anda dapat menginstall cygwin. Ini dapat diunduh disini [http://www.cygwin.com/](http://www.cygwin.com/) . Disini tersedia cygwin untuk x86 dan x64.
+
+Setelah menginstallnya, anda install package gcc nya.
+
+![alt text](images/gcc.png "Aplikasi Cygwin")
+
+Kemudian pada bagian devel, pilih gcc, gdb dan make.
+
+![alt text](images/gcc2.png "Memilih package")
+
+Jika selesai, kita akan mendapatkan terminal Cygwin dan melalui terminal kita dapat menggunakan GCC. Berikut ini contoh menggunakan GCC pada Cygwin.
+
+![alt text](images/gcc3.png "Aplikasi GCC")
+
+
 
 [![Kembali ke menu utama](images/back.png "Kembali menu utama")](/README.md)
