@@ -21,7 +21,7 @@ Sebagai contohnya kita membuat fungsi add() dimana ini melakukan penjumlahan dar
 	    int a, b;
 		a = 10; b = 15;
 		
-		int c = add(a,b);
+		int c = add(a,b); // cara panggil fungsi
 		printf("add(%d,%d)=%d \n", a,b,c);
 	      
 	   return 0;

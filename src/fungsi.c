@@ -7,7 +7,7 @@ int main ()
     int a, b;
 	a = 10; b = 15;
 	
-	int c = add(a,b);
+	int c = add(a,b); // panggil fungsi
 	printf("add(%d,%d)=%d \n", a,b,c);
       
    return 0;
