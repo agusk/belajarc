@@ -72,6 +72,34 @@ Contoh hasil eksekusinya dapat dilihat dibawah ini.
 	log(0) = 1.099
 	pow(0,2) = 9.000
 
+## Studi Kasus
+
+Pada kasus ini kita akan menerjemahkan persamaan matematika kedalam kode program. Sebagai ilustrasinya, kita menggunakan persamaan dibawah ini.
+
+![alt text](images/equ.png "Contoh persamaan")
+
+
+Untuk realisasinya, perhatikan kode program dibawah ini ([mathequ.c](../src/mathequ.c)). 
+
+	#include <stdio.h>
+	#include <math.h> 
+	
+	int main ()
+	{	
+		double a = 3, b = 8, c = 4;
+		
+		double  y = (-b + sqrt(b*b - 4*a*c)) / (2*a);
+		printf("y = %.3f \n", y);
+		
+		return 0;
+	}
+
+Simpan kode program. Lakukan kompilasi dan eksekusi-
+
+	$ gcc -o mathequ mathequ.c
+	$ ./mathequ
+
+
 
 [![Kembali ke menu utama](images/back.png "Kembali menu utama")](/README.md)
 
