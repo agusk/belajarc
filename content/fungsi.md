@@ -49,3 +49,6 @@ Kadangkalanya kita membuat fungsi tanpa mengembalikan nilai. Disini kita cukup m
 		// implementasi kode program
 	
 	}
+
+
+[![Kembali ke menu utama](images/back.png "Kembali menu utama")](/README.md)
