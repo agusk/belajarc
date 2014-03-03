@@ -57,4 +57,57 @@ Contoh hasil eksekusinya dapat dilihat disini
 ![alt text](images/koleksi.png "Contoh hasil eksekusi")
 
 
+## Multi Koleksi
+
+Sebuah multi koleksi dapat dideklarasikan sebagai berikut.
+
+    tipe_data nama_variable[m][n][p][q].....[..];
+
+
+Contohnya kita memiliki koleksi dengan 2 dimensi.
+
+    int data[5][4];
+    
+
+Guna memudahkan ilustrasi, kita membuat contoh program ([koleksi2d.c](../src/koleksi2d.c)).
+
+
+    #include <stdio.h>
+     
+    int main ()
+    {
+    
+        int numbers[5][4];
+        int i,j;
+    
+        // isi data
+        for(i=0;i<5;i++) {
+            for(j=0;j<4;j++) {
+                numbers[i][j] = i*2 + 3*j;
+            }
+    
+        }
+    
+        // menampilkan data
+        for(i=0;i<5;i++) {
+            for(j=0;j<4;j++) {
+                printf("numbers[%d][%d] = %d \n", i,j, numbers[i][j]);
+            }
+    
+        }
+    
+          
+        return 0;
+    }
+
+Simpan dan lakukan kompilasi dan eksekusi.
+
+    $ gcc -o koleksi2d koleksi2d.c
+    $ ./koleksi2d
+
+Contoh hasilnya dapat dilihat disini.
+
+![alt text](images/koleksi2d.png "Contoh hasil eksekusi")
+
+
 [![Kembali ke menu utama](images/back.png "Kembali menu utama")](/README.md)
