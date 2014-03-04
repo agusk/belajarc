@@ -26,6 +26,7 @@ Berikut ini daftar tutorial yang dapat dipelajari.
 Semua tutorial ini menggunakan compiler GCC pada platform Linux.
 Jika ada masalah, kirim pesan kebagian [issue](https://github.com/agusk/belajarc/issues).
 
+Silakan ditunggu kontribusinya untuk menambahkan konten ini.
 
 Kontributor:
 
