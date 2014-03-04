@@ -55,6 +55,35 @@ Contoh hasil eksekusinya dapat dilihat dibawah ini.
 
 ## NULL Pointer
 
+Pointer null dideklarasikan sebagai pointer yang alamatnya null/nill. Ini berguna untuk initialisasi pointer. Berikut ini contoh penggunaannya ([pointernull.c](../src/pointernull.c)):
+
+    #include <stdio.h>
+     
+    int main ()
+    {    
+        int *pnum = NULL;
+    
+        // check alamat memory
+        printf("alamat memory pnum %p \n", pnum);
+    
+        // menampilkan nilai pnum
+        printf("nilai pnum %d \n", *pnum);    
+          
+       return 0;
+    }
+
+Lakukan kompilasi dan eksekusi
+
+    $ gcc -o pointernull pointernull.c
+    $ ./pointernull
+    
+Dan berikut ini contoh hasil eksekusinya:
+
+![alt text](images/null.png "Contoh hasil eksekusi")
+
+Terlihat terjadi error ketika mengakses nilai yang alamatnya nill atau null.
+
+
 
 
 [![Kembali ke menu utama](images/back.png "Kembali menu utama")](/README.md)
